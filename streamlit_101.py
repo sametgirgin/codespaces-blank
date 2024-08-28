@@ -3,7 +3,6 @@ import streamlit as st
 st.title("Can you see my Portfolio!!!")
 
 # Import matplotlib.pyplot with alias plt
-import matplotlib.pyplot as plt
 import pandas as pd
 @st.cache_data
 def load_data():
