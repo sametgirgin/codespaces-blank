@@ -32,5 +32,5 @@ st.write("'st.data_editor' allow us to display and edit the dataset")
 
 henry_hub = fetch_henry_hub()
 #henry_hub_values = pd.DataFrame(henry_hub["value"])
-st.line_chart(henry_hub, x="period", y="value", color="#ffaa0088")
+st.line_chart(henry_hub, x="period", y="value", color="#ffaa0088",width=8, height=6)
 #st.bar_chart(henry_hub["value"])
